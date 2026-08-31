@@ -1,0 +1,7 @@
+# bridge runtime files (machine-specific)
+assets/data/beacon_log.txt
+assets/data/bridge_port.txt
+
+# misc
+*.tmp
+__pycache__/

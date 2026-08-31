@@ -1,0 +1,6 @@
+{
+ "new_per_day": 30,
+ "max_due_per_day": 90,
+ "auto_reduce": true,
+ "reduce_threshold": 50
+}

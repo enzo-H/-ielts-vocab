@@ -1,0 +1,2026 @@
+{
+ "meta": {
+  "list_id": "listening",
+  "title": "雅思听力场景高频词",
+  "description": "覆盖 Section 1-4 高频场景：预订/旅行、图书馆、课程咨询、银行、健康、环保讲座、动植物、考古",
+  "version": "1.1.0",
+  "word_count": 120
+ },
+ "words": [
+  {
+   "id": "accommodation",
+   "word": "accommodation",
+   "pos": "n.",
+   "cn": "住宿",
+   "phonetic": "/əˌkɒməˈdeɪʃn/",
+   "sentence": "The accommodation fee covers both rent and utilities.",
+   "sentence_cn": "住宿费包含房租和水电费。",
+   "paraphrase": [
+    "housing",
+    "lodging",
+    "somewhere to stay"
+   ],
+   "tags": [
+    "travel",
+    "section1"
+   ]
+  },
+  {
+   "id": "deposit",
+   "word": "deposit",
+   "pos": "n.",
+   "cn": "押金；定金",
+   "phonetic": "/dɪˈpɒzɪt/",
+   "sentence": "You need to pay a deposit of 200 dollars, which is refundable.",
+   "sentence_cn": "你需要付200美元押金，是可以退还的。",
+   "paraphrase": [
+    "down payment",
+    "security bond"
+   ],
+   "tags": [
+    "money",
+    "section1"
+   ]
+  },
+  {
+   "id": "invoice",
+   "word": "invoice",
+   "pos": "n.",
+   "cn": "发票",
+   "phonetic": "/ˈɪnvɔɪs/",
+   "sentence": "Could you send me an invoice for the order?",
+   "sentence_cn": "能给我开一张这批货的发票吗？",
+   "paraphrase": [
+    "bill",
+    "receipt"
+   ],
+   "tags": [
+    "money",
+    "section1"
+   ]
+  },
+  {
+   "id": "refund",
+   "word": "refund",
+   "pos": "n.",
+   "cn": "退款",
+   "phonetic": "/ˈriːfʌnd/",
+   "sentence": "Tickets are non-refundable unless the event is cancelled.",
+   "sentence_cn": "除非活动取消，否则门票不予退款。",
+   "paraphrase": [
+    "money back",
+    "reimbursement"
+   ],
+   "tags": [
+    "money",
+    "section1"
+   ]
+  },
+  {
+   "id": "voucher",
+   "word": "voucher",
+   "pos": "n.",
+   "cn": "代金券",
+   "phonetic": "/ˈvaʊtʃə(r)/",
+   "sentence": "Each participant will receive a gift voucher worth 50 pounds.",
+   "sentence_cn": "每位参与者将获得一张价值50英镑的礼品券。",
+   "paraphrase": [
+    "coupon",
+    "gift certificate"
+   ],
+   "tags": [
+    "money",
+    "section1"
+   ]
+  },
+  {
+   "id": "itinerary",
+   "word": "itinerary",
+   "pos": "n.",
+   "cn": "行程安排",
+   "phonetic": "/aɪˈtɪnərəri/",
+   "sentence": "The travel agent emailed me a detailed itinerary.",
+   "sentence_cn": "旅行社给我发了一份详细的行程单。",
+   "paraphrase": [
+    "schedule",
+    "route plan",
+    "travel plan"
+   ],
+   "tags": [
+    "travel",
+    "section1"
+   ]
+  },
+  {
+   "id": "excursion",
+   "word": "excursion",
+   "pos": "n.",
+   "cn": "短途旅行",
+   "phonetic": "/ɪkˈskɜːʃn/",
+   "sentence": "The hotel organises a boat excursion every Saturday.",
+   "sentence_cn": "酒店每周六组织��次乘船短途游。",
+   "paraphrase": [
+    "day trip",
+    "outing",
+    "short journey"
+   ],
+   "tags": [
+    "travel",
+    "section2"
+   ]
+  },
+  {
+   "id": "ferry",
+   "word": "ferry",
+   "pos": "n.",
+   "cn": "渡轮",
+   "phonetic": "/ˈferi/",
+   "sentence": "The ferry to the island departs twice a day.",
+   "sentence_cn": "去岛上的渡轮每天发两班。",
+   "paraphrase": [
+    "boat service",
+    "water taxi"
+   ],
+   "tags": [
+    "travel",
+    "section2"
+   ]
+  },
+  {
+   "id": "shuttle",
+   "word": "shuttle",
+   "pos": "n.",
+   "cn": "摆渡车；班车",
+   "phonetic": "/ˈʃʌtl/",
+   "sentence": "A free shuttle runs between the airport and the hotel.",
+   "sentence_cn": "机场和酒店之间有免费摆渡车。",
+   "paraphrase": [
+    "free bus",
+    "transfer service"
+   ],
+   "tags": [
+    "travel",
+    "section2"
+   ]
+  },
+  {
+   "id": "platform",
+   "word": "platform",
+   "pos": "n.",
+   "cn": "站台",
+   "phonetic": "/ˈplætfɔːm/",
+   "sentence": "The train to Oxford leaves from platform 3.",
+   "sentence_cn": "去牛津的火车从3号站台发车。",
+   "paraphrase": [
+    "stand",
+    "track"
+   ],
+   "tags": [
+    "travel",
+    "section1"
+   ]
+  },
+  {
+   "id": "luggage",
+   "word": "luggage",
+   "pos": "n.",
+   "cn": "行李",
+   "phonetic": "/ˈlʌɡɪdʒ/",
+   "sentence": "Left luggage facilities are available in the basement.",
+   "sentence_cn": "行李寄存处设在地下一层。",
+   "paraphrase": [
+    "baggage",
+    "suitcases",
+    "belongings"
+   ],
+   "tags": [
+    "travel",
+    "section2"
+   ]
+  },
+  {
+   "id": "visa",
+   "word": "visa",
+   "pos": "n.",
+   "cn": "签证",
+   "phonetic": "/ˈviːzə/",
+   "sentence": "You must apply for a visa at least four weeks in advance.",
+   "sentence_cn": "你必须至少提前四周申请签证。",
+   "paraphrase": [
+    "entry permit",
+    "travel document"
+   ],
+   "tags": [
+    "travel",
+    "section1"
+   ]
+  },
+  {
+   "id": "enrolment",
+   "word": "enrolment",
+   "pos": "n.",
+   "cn": "注册；报名",
+   "phonetic": "/ɪnˈrəʊlmənt/",
+   "sentence": "Enrolment for the autumn term closes on Friday.",
+   "sentence_cn": "秋季学期的注册周五截止。",
+   "paraphrase": [
+    "registration",
+    "signing up"
+   ],
+   "tags": [
+    "education",
+    "section1"
+   ]
+  },
+  {
+   "id": "orientation",
+   "word": "orientation",
+   "pos": "n.",
+   "cn": "迎新介绍；方位训练",
+   "phonetic": "/ˌɔːriənˈteɪʃn/",
+   "sentence": "All freshmen attend an orientation session on Monday.",
+   "sentence_cn": "所有新生周一参加迎新培训。",
+   "paraphrase": [
+    "induction",
+    "introductory meeting"
+   ],
+   "tags": [
+    "education",
+    "section2"
+   ]
+  },
+  {
+   "id": "seminar",
+   "word": "seminar",
+   "pos": "n.",
+   "cn": "研讨课",
+   "phonetic": "/ˈsemɪnɑː(r)/",
+   "sentence": "She leads a weekly seminar on research methods.",
+   "sentence_cn": "她每周主持一次研究方法研讨课。",
+   "paraphrase": [
+    "discussion group",
+    "tutorial"
+   ],
+   "tags": [
+    "education",
+    "section3"
+   ]
+  },
+  {
+   "id": "dissertation",
+   "word": "dissertation",
+   "pos": "n.",
+   "cn": "（学位）论文",
+   "phonetic": "/ˌdɪsəˈteɪʃn/",
+   "sentence": "Your dissertation proposal is due at the end of the month.",
+   "sentence_cn": "论文开题报告月底截止。",
+   "paraphrase": [
+    "thesis",
+    "research paper",
+    "final project"
+   ],
+   "tags": [
+    "education",
+    "section3"
+   ]
+  },
+  {
+   "id": "plagiarism",
+   "word": "plagiarism",
+   "pos": "n.",
+   "cn": "剽窃",
+   "phonetic": "/ˈpleɪdʒərɪzəm/",
+   "sentence": "The university takes plagiarism very seriously.",
+   "sentence_cn": "大学对剽窃行为非常严肃处理。",
+   "paraphrase": [
+    "copying work",
+    "academic cheating"
+   ],
+   "tags": [
+    "education",
+    "section3"
+   ]
+  },
+  {
+   "id": "bibliography",
+   "word": "bibliography",
+   "pos": "n.",
+   "cn": "参考书目",
+   "phonetic": "/ˌbɪbliˈɒɡrəfi/",
+   "sentence": "Don't forget to attach a bibliography at the end.",
+   "sentence_cn": "别忘了在结尾附上参考书目。",
+   "paraphrase": [
+    "reference list",
+    "citations"
+   ],
+   "tags": [
+    "education",
+    "library"
+   ]
+  },
+  {
+   "id": "periodical",
+   "word": "periodical",
+   "pos": "n.",
+   "cn": "期刊",
+   "phonetic": "/ˌpɪəriˈɒdɪkl/",
+   "sentence": "Current periodicals are shelved on the second floor.",
+   "sentence_cn": "现刊陈列在二楼。",
+   "paraphrase": [
+    "magazine",
+    "journal"
+   ],
+   "tags": [
+    "library"
+   ]
+  },
+  {
+   "id": "catalogue",
+   "word": "catalogue",
+   "pos": "n.",
+   "cn": "目录",
+   "phonetic": "/ˈkætəlɒɡ/",
+   "sentence": "You can search the library catalogue online.",
+   "sentence_cn": "你可以在网上检索图书馆目录。",
+   "paraphrase": [
+    "directory",
+    "listing",
+    "index"
+   ],
+   "tags": [
+    "library"
+   ]
+  },
+  {
+   "id": "reservation",
+   "word": "reservation",
+   "pos": "n.",
+   "cn": "预订",
+   "phonetic": "/ˌrezəˈveɪʃn/",
+   "sentence": "I'd like to make a reservation for two nights.",
+   "sentence_cn": "我想预订两晚。",
+   "paraphrase": [
+    "booking",
+    "advance arrangement"
+   ],
+   "tags": [
+    "section1"
+   ]
+  },
+  {
+   "id": "membership",
+   "word": "membership",
+   "pos": "n.",
+   "cn": "会员资格",
+   "phonetic": "/ˈmembəʃɪp/",
+   "sentence": "Annual membership costs 45 pounds, including insurance.",
+   "sentence_cn": "年费45英镑，含保险。",
+   "paraphrase": [
+    "subscription",
+    "joining fee"
+   ],
+   "tags": [
+    "section1"
+   ]
+  },
+  {
+   "id": "subscription",
+   "word": "subscription",
+   "pos": "n.",
+   "cn": "订阅；订阅费",
+   "phonetic": "/səbˈskrɪpʃn/",
+   "sentence": "Cancel the subscription before the trial ends.",
+   "sentence_cn": "在试用结束前取消订阅。",
+   "paraphrase": [
+    "regular payment",
+    "membership fee"
+   ],
+   "tags": [
+    "money"
+   ]
+  },
+  {
+   "id": "instalment",
+   "word": "instalment",
+   "pos": "n.",
+   "cn": "分期付款",
+   "phonetic": "/ɪnˈstɔːlmənt/",
+   "sentence": "You can pay the course fee in three instalments.",
+   "sentence_cn": "学��可以分三期支付。",
+   "paraphrase": [
+    "monthly payment",
+    "part payment"
+   ],
+   "tags": [
+    "money"
+   ]
+  },
+  {
+   "id": "pension",
+   "word": "pension",
+   "pos": "n.",
+   "cn": "养老金",
+   "phonetic": "/ˈpenʃn/",
+   "sentence": "He retired early and now lives on a pension.",
+   "sentence_cn": "他提前退休，现在靠养老金生活。",
+   "paraphrase": [
+    "retirement income",
+    "superannuation"
+   ],
+   "tags": [
+    "money"
+   ]
+  },
+  {
+   "id": "mortgage",
+   "word": "mortgage",
+   "pos": "n.",
+   "cn": "抵押贷款",
+   "phonetic": "/ˈmɔːɡɪdʒ/",
+   "sentence": "They took out a mortgage to buy the flat.",
+   "sentence_cn": "他们贷款买了这套公寓。",
+   "paraphrase": [
+    "home loan",
+    "housing loan"
+   ],
+   "tags": [
+    "money"
+   ]
+  },
+  {
+   "id": "budget",
+   "word": "budget",
+   "pos": "n.",
+   "cn": "预算",
+   "phonetic": "/ˈbʌdʒɪt/",
+   "sentence": "The project ran over budget by ten per cent.",
+   "sentence_cn": "项目超预算百分之十。",
+   "paraphrase": [
+    "spending plan",
+    "allocation"
+   ],
+   "tags": [
+    "money"
+   ]
+  },
+  {
+   "id": "receipt",
+   "word": "receipt",
+   "pos": "n.",
+   "cn": "收据",
+   "phonetic": "/rɪˈsiːt/",
+   "sentence": "Keep the receipt in case you want a refund.",
+   "sentence_cn": "保留收据以便退款。",
+   "paraphrase": [
+    "proof of purchase",
+    "slip"
+   ],
+   "tags": [
+    "money"
+   ]
+  },
+  {
+   "id": "tuition",
+   "word": "tuition",
+   "pos": "n.",
+   "cn": "学费；教学",
+   "phonetic": "/tjuːˈɪʃn/",
+   "sentence": "Tuition fees have risen sharply in recent years.",
+   "sentence_cn": "近年来学费大幅上涨。",
+   "paraphrase": [
+    "teaching",
+    "instruction",
+    "fees"
+   ],
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "id": "scholarship",
+   "word": "scholarship",
+   "pos": "n.",
+   "cn": "奖学金",
+   "phonetic": "/ˈskɒləʃɪp/",
+   "sentence": "She won a scholarship to study in Canada.",
+   "sentence_cn": "她获得了去加拿大留学的奖学金。",
+   "paraphrase": [
+    "grant",
+    "funding",
+    "award"
+   ],
+   "tags": [
+    "education"
+   ]
+  },
+  {
+   "id": "prescription",
+   "word": "prescription",
+   "pos": "n.",
+   "cn": "处方",
+   "phonetic": "/prɪˈskrɪpʃn/",
+   "sentence": "The doctor wrote a prescription for antibiotics.",
+   "sentence_cn": "医生开了抗生素处方。",
+   "paraphrase": [
+    "medicine slip",
+    "written order"
+   ],
+   "tags": [
+    "health"
+   ]
+  },
+  {
+   "id": "symptom",
+   "word": "symptom",
+   "pos": "n.",
+   "cn": "症状",
+   "phonetic": "/ˈsɪmptəm/",
+   "sentence": "Common symptoms include fever and a sore throat.",
+   "sentence_cn": "常见症状包括发烧和喉咙痛。",
+   "paraphrase": [
+    "signs",
+    "indications"
+   ],
+   "tags": [
+    "health"
+   ]
+  },
+  {
+   "id": "injury",
+   "word": "injury",
+   "pos": "n.",
+   "cn": "受伤",
+   "phonetic": "/ˈɪndʒəri/",
+   "sentence": "The injury kept him off work for a fortnight.",
+   "sentence_cn": "这次伤让他两周无法工作。",
+   "paraphrase": [
+    "wound",
+    "damage",
+    "harm"
+   ],
+   "tags": [
+    "health"
+   ]
+  },
+  {
+   "id": "therapy",
+   "word": "therapy",
+   "pos": "n.",
+   "cn": "治疗；理疗",
+   "phonetic": "/ˈθerəpi/",
+   "sentence": "Physiotherapy sessions are held twice a week.",
+   "sentence_cn": "理疗每周进行两次。",
+   "paraphrase": [
+    "treatment",
+    "rehabilitation"
+   ],
+   "tags": [
+    "health"
+   ]
+  },
+  {
+   "id": "vaccination",
+   "word": "vaccination",
+   "pos": "n.",
+   "cn": "疫苗接种",
+   "phonetic": "/ˌvæksɪˈneɪʃn/",
+   "sentence": "Vaccination is required before travelling to the region.",
+   "sentence_cn": "前往该地区前需接种疫苗。",
+   "paraphrase": [
+    "immunisation",
+    "injection",
+    "jab"
+   ],
+   "tags": [
+    "health"
+   ]
+  },
+  {
+   "id": "surgery",
+   "word": "surgery",
+   "pos": "n.",
+   "cn": "手术；诊所",
+   "phonetic": "/ˈsɜːdʒəri/",
+   "sentence": "The local surgery opens at eight in the morning.",
+   "sentence_cn": "当地诊所早上八点开门。",
+   "paraphrase": [
+    "operation",
+    "clinic",
+    "GP's office"
+   ],
+   "tags": [
+    "health"
+   ]
+  },
+  {
+   "id": "habitat",
+   "word": "habitat",
+   "pos": "n.",
+   "cn": "栖息地",
+   "phonetic": "/ˈhæbɪtæt/",
+   "sentence": "The polar bear's natural habitat is under threat.",
+   "sentence_cn": "北极熊的自然栖息地正受到威胁。",
+   "paraphrase": [
+    "natural environment",
+    "breeding ground"
+   ],
+   "tags": [
+    "environment",
+    "section4"
+   ]
+  },
+  {
+   "id": "erosion",
+   "word": "erosion",
+   "pos": "n.",
+   "cn": "侵蚀",
+   "phonetic": "/ɪˈrəʊʒn/",
+   "sentence": "Coastal erosion is accelerating due to rising sea levels.",
+   "sentence_cn": "海平面上升正在加速海岸侵蚀。",
+   "paraphrase": [
+    "wearing away",
+    "deterioration"
+   ],
+   "tags": [
+    "environment",
+    "section4"
+   ]
+  },
+  {
+   "id": "irrigation",
+   "word": "irrigation",
+   "pos": "n.",
+   "cn": "灌溉",
+   "phonetic": "/ˌɪrɪˈɡeɪʃn/",
+   "sentence": "Modern irrigation systems have doubled the yield.",
+   "sentence_cn": "现代灌溉系统使产量翻倍。",
+   "paraphrase": [
+    "watering",
+    "water supply"
+   ],
+   "tags": [
+    "agriculture",
+    "section4"
+   ]
+  },
+  {
+   "id": "fertiliser",
+   "word": "fertiliser",
+   "pos": "n.",
+   "cn": "肥料",
+   "phonetic": "/ˈfɜːtəlaɪzə(r)/",
+   "sentence": "Overuse of chemical fertilisers damages the soil.",
+   "sentence_cn": "化肥过度使用会损害土壤。",
+   "paraphrase": [
+    "plant food",
+    "chemical treatment"
+   ],
+   "tags": [
+    "agriculture"
+   ]
+  },
+  {
+   "id": "pesticide",
+   "word": "pesticide",
+   "pos": "n.",
+   "cn": "杀虫剂",
+   "phonetic": "/ˈpestɪsaɪd/",
+   "sentence": "The pesticide was banned after links to bee decline emerged.",
+   "sentence_cn": "这种杀虫剂因与蜜蜂数量下降有关而被禁用。",
+   "paraphrase": [
+    "chemical spray",
+    "insecticide"
+   ],
+   "tags": [
+    "agriculture"
+   ]
+  },
+  {
+   "id": "drought",
+   "word": "drought",
+   "pos": "n.",
+   "cn": "干旱",
+   "phonetic": "/draʊt/",
+   "sentence": "The region suffered its worst drought in a century.",
+   "sentence_cn": "该地区遭遇百年最严重干旱。",
+   "paraphrase": [
+    "water shortage",
+    "dry spell"
+   ],
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "flooding",
+   "word": "flooding",
+   "pos": "n.",
+   "cn": "洪水；泛滥",
+   "phonetic": "/ˈflʌdɪŋ/",
+   "sentence": "Heavy rain caused severe flooding in the valley.",
+   "sentence_cn": "大雨导致山谷严重洪涝。",
+   "paraphrase": [
+    "floods",
+    "overflow"
+   ],
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "conservation",
+   "word": "conservation",
+   "pos": "n.",
+   "cn": "保护",
+   "phonetic": "/ˌkɒnsəˈveɪʃn/",
+   "sentence": "The charity funds conservation projects worldwide.",
+   "sentence_cn": "该慈善机构资助全球保护项目。",
+   "paraphrase": [
+    "preservation",
+    "protection"
+   ],
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "biodiversity",
+   "word": "biodiversity",
+   "pos": "n.",
+   "cn": "生物多样性",
+   "phonetic": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+   "sentence": "Rainforests support the greatest biodiversity on earth.",
+   "sentence_cn": "雨林支撑着地球上最丰富的生物多样性。",
+   "paraphrase": [
+    "variety of species",
+    "wildlife range"
+   ],
+   "tags": [
+    "environment",
+    "section4"
+   ]
+  },
+  {
+   "id": "extinct",
+   "word": "extinct",
+   "pos": "adj.",
+   "cn": "灭绝的",
+   "phonetic": "/ɪkˈstɪŋkt/",
+   "sentence": "The dodo became extinct in the seventeenth century.",
+   "sentence_cn": "渡渡鸟在十七世纪灭绝。",
+   "paraphrase": [
+    "died out",
+    "no longer existing"
+   ],
+   "tags": [
+    "animals",
+    "section4"
+   ]
+  },
+  {
+   "id": "species",
+   "word": "species",
+   "pos": "n.",
+   "cn": "物种",
+   "phonetic": "/ˈspiːʃiːz/",
+   "sentence": "Several species of butterfly are native to the island.",
+   "sentence_cn": "几种蝴蝶是这座岛的原生物种。",
+   "paraphrase": [
+    "types of animal",
+    "breeds"
+   ],
+   "tags": [
+    "animals"
+   ]
+  },
+  {
+   "id": "breeding",
+   "word": "breeding",
+   "pos": "n.",
+   "cn": "繁殖",
+   "phonetic": "/ˈbriːdɪŋ/",
+   "sentence": "The birds return here each year for the breeding season.",
+   "sentence_cn": "这些鸟每年回到这里繁殖。",
+   "paraphrase": [
+    "reproduction",
+    "mating"
+   ],
+   "tags": [
+    "animals"
+   ]
+  },
+  {
+   "id": "migration",
+   "word": "migration",
+   "pos": "n.",
+   "cn": "迁徙",
+   "phonetic": "/maɪˈɡreɪʃn/",
+   "sentence": "The migration route covers thousands of miles.",
+   "sentence_cn": "迁徙路线绵延数千英里。",
+   "paraphrase": [
+    "seasonal movement",
+    "journey"
+   ],
+   "tags": [
+    "animals"
+   ]
+  },
+  {
+   "id": "excavation",
+   "word": "excavation",
+   "pos": "n.",
+   "cn": "挖掘；发掘",
+   "phonetic": "/ˌekskəˈveɪʃn/",
+   "sentence": "The excavation revealed remains of a Roman villa.",
+   "sentence_cn": "发掘出土了一座罗马别墅的遗迹。",
+   "paraphrase": [
+    "dig",
+    "unearthing"
+   ],
+   "tags": [
+    "archaeology",
+    "section4"
+   ]
+  },
+  {
+   "id": "artefact",
+   "word": "artefact",
+   "pos": "n.",
+   "cn": "文物；人工制品",
+   "phonetic": "/ˈɑːtɪfækt/",
+   "sentence": "Museum staff dated the artefact to the Bronze Age.",
+   "sentence_cn": "博物馆人员将这件文物断代到青铜时代。",
+   "paraphrase": [
+    "object",
+    "relic",
+    "historical item"
+   ],
+   "tags": [
+    "archaeology"
+   ]
+  },
+  {
+   "id": "pottery",
+   "word": "pottery",
+   "pos": "n.",
+   "cn": "陶器",
+   "phonetic": "/ˈpɒtəri/",
+   "sentence": "Fragments of pottery were found at the site.",
+   "sentence_cn": "现场发现了陶器碎片。",
+   "paraphrase": [
+    "ceramics",
+    "clay objects"
+   ],
+   "tags": [
+    "archaeology"
+   ]
+  },
+  {
+   "id": "textile",
+   "word": "textile",
+   "pos": "n.",
+   "cn": "纺织品",
+   "phonetic": "/ˈtekstaɪl/",
+   "sentence": "The town grew rich on the textile trade.",
+   "sentence_cn": "这座城镇靠纺织业致富。",
+   "paraphrase": [
+    "fabric",
+    "cloth"
+   ],
+   "tags": [
+    "history"
+   ]
+  },
+  {
+   "id": "livestock",
+   "word": "livestock",
+   "pos": "n.",
+   "cn": "家畜",
+   "phonetic": "/ˈlaɪvstɒk/",
+   "sentence": "Farmers moved their livestock to higher ground.",
+   "sentence_cn": "农民把牲畜转移到高处。",
+   "paraphrase": [
+    "cattle",
+    "farm animals"
+   ],
+   "tags": [
+    "agriculture"
+   ]
+  },
+  {
+   "id": "harvest",
+   "word": "harvest",
+   "pos": "n.",
+   "cn": "收获；收成",
+   "phonetic": "/ˈhɑːvɪst/",
+   "sentence": "This year's wheat harvest was disappointing.",
+   "sentence_cn": "今年小麦收成不佳。",
+   "paraphrase": [
+    "crop yield",
+    "gathering"
+   ],
+   "tags": [
+    "agriculture"
+   ]
+  },
+  {
+   "id": "compost",
+   "word": "compost",
+   "pos": "n.",
+   "cn": "堆肥",
+   "phonetic": "/ˈkɒmpɒst/",
+   "sentence": "Kitchen waste can be turned into compost.",
+   "sentence_cn": "厨余垃圾可以变成堆肥。",
+   "paraphrase": [
+    "organic fertiliser",
+    "mulch"
+   ],
+   "tags": [
+    "environment"
+   ]
+  },
+  {
+   "id": "volunteer",
+   "word": "volunteer",
+   "pos": "n.",
+   "cn": "志愿者",
+   "phonetic": "/ˌvɒlənˈtɪə(r)/",
+   "sentence": "The centre is run entirely by volunteers.",
+   "sentence_cn": "该中心完全由志愿者运营。",
+   "paraphrase": [
+    "unpaid helper"
+   ],
+   "tags": [
+    "community",
+    "section2"
+   ]
+  },
+  {
+   "id": "charity",
+   "word": "charity",
+   "pos": "n.",
+   "cn": "慈善机构",
+   "phonetic": "/ˈtʃærəti/",
+   "sentence": "Proceeds from the sale go to a local charity.",
+   "sentence_cn": "销售所得捐给当地慈善机构。",
+   "paraphrase": [
+    "non-profit organisation",
+    "good cause"
+   ],
+   "tags": [
+    "community"
+   ]
+  },
+  {
+   "id": "insurance",
+   "word": "insurance",
+   "pos": "n.",
+   "cn": "保险",
+   "phonetic": "/ɪnˈʃʊərəns/",
+   "sentence": "Check whether your insurance covers personal belongings.",
+   "sentence_cn": "确认你的保险是否涵盖个人财物。",
+   "paraphrase": [
+    "coverage",
+    "protection plan"
+   ],
+   "tags": [
+    "money"
+   ]
+  },
+  {
+   "id": "laboratory",
+   "word": "laboratory",
+   "pos": "n.",
+   "cn": "实验室",
+   "phonetic": "/ləˈbɒrətri/",
+   "sentence": "The samples were analysed in a laboratory in Sydney.",
+   "sentence_cn": "样本在悉尼的一间实验室做了分析。",
+   "paraphrase": [
+    "lab",
+    "research facility"
+   ],
+   "tags": [
+    "campus"
+   ]
+  },
+  {
+   "id": "campus",
+   "word": "campus",
+   "pos": "n.",
+   "cn": "校园",
+   "phonetic": "/ˈkæmpəs/",
+   "sentence": "Most first-years live on campus.",
+   "sentence_cn": "大多数新生住在校内。",
+   "paraphrase": [
+    "university grounds",
+    "college site"
+   ],
+   "tags": [
+    "campus"
+   ]
+  },
+  {
+   "id": "landlord",
+   "word": "landlord",
+   "pos": "n.",
+   "cn": "房东",
+   "phonetic": "/ˈlændlɔːd/",
+   "sentence": "The landlord said the rent is due on the first of each month.",
+   "sentence_cn": "房东说每月一号交房租。",
+   "paraphrase": [
+    "property owner",
+    "house owner"
+   ],
+   "tags": [
+    "housing",
+    "section1"
+   ]
+  },
+  {
+   "id": "tenant",
+   "word": "tenant",
+   "pos": "n.",
+   "cn": "租户；房客",
+   "phonetic": "/ˈtenənt/",
+   "sentence": "The previous tenant left the flat in good condition.",
+   "sentence_cn": "前租户离开时公寓状况良好。",
+   "paraphrase": [
+    "renter",
+    "occupier"
+   ],
+   "tags": [
+    "housing",
+    "section1"
+   ]
+  },
+  {
+   "id": "furnished",
+   "word": "furnished",
+   "pos": "adj.",
+   "cn": "带家具的",
+   "phonetic": "/ˈfɜːnɪʃt/",
+   "sentence": "The flat is fully furnished, including a fridge and a washing machine.",
+   "sentence_cn": "公寓带全套家具，含冰箱和洗衣机。",
+   "paraphrase": [
+    "equipped with furniture",
+    "with fittings included"
+   ],
+   "tags": [
+    "housing",
+    "section1"
+   ]
+  },
+  {
+   "id": "utilities",
+   "word": "utilities",
+   "pos": "n.(pl.)",
+   "cn": "水电气等公用事业费",
+   "phonetic": "/juːˈtɪlətiz/",
+   "sentence": "Utilities are not included in the monthly rent.",
+   "sentence_cn": "水电气费不含在月租内。",
+   "paraphrase": [
+    "electricity and water bills",
+    "household services"
+   ],
+   "tags": [
+    "housing",
+    "section1"
+   ]
+  },
+  {
+   "id": "appliance",
+   "word": "appliance",
+   "pos": "n.",
+   "cn": "（家用）电器",
+   "phonetic": "/əˈplaɪəns/",
+   "sentence": "Report any faulty kitchen appliance to the agency.",
+   "sentence_cn": "厨房电器有故障请联系中介。",
+   "paraphrase": [
+    "electrical device",
+    "household equipment"
+   ],
+   "tags": [
+    "housing",
+    "section1"
+   ]
+  },
+  {
+   "id": "plumbing",
+   "word": "plumbing",
+   "pos": "n.",
+   "cn": "水管设施；管道",
+   "phonetic": "/ˈplʌmɪŋ/",
+   "sentence": "There is a plumbing problem in the bathroom—the tap keeps dripping.",
+   "sentence_cn": "浴室水管有问题，水龙头一直滴水。",
+   "paraphrase": [
+    "water pipes",
+    "pipe system"
+   ],
+   "tags": [
+    "housing",
+    "section1"
+   ]
+  },
+  {
+   "id": "renovation",
+   "word": "renovation",
+   "pos": "n.",
+   "cn": "翻新；修缮",
+   "phonetic": "/ˌrenəˈveɪʃn/",
+   "sentence": "The science block will be closed for renovation until March.",
+   "sentence_cn": "科学楼因翻新关闭至三月。",
+   "paraphrase": [
+    "refurbishment",
+    "improvement works"
+   ],
+   "tags": [
+    "housing",
+    "section2"
+   ]
+  },
+  {
+   "id": "property",
+   "word": "property",
+   "pos": "n.",
+   "cn": "房产；财产",
+   "phonetic": "/ˈprɒpəti/",
+   "sentence": "The property market in this area has cooled down recently.",
+   "sentence_cn": "该地区房产市场最近降温。",
+   "paraphrase": [
+    "real estate",
+    "housing"
+   ],
+   "tags": [
+    "housing",
+    "section2"
+   ]
+  },
+  {
+   "id": "vacancy",
+   "word": "vacancy",
+   "pos": "n.",
+   "cn": "（职位）空缺",
+   "phonetic": "/ˈveɪkənsi/",
+   "sentence": "There are still two vacancies at the front desk.",
+   "sentence_cn": "前台还有两个空缺职位。",
+   "paraphrase": [
+    "opening",
+    "available position"
+   ],
+   "tags": [
+    "job",
+    "section1"
+   ]
+  },
+  {
+   "id": "applicant",
+   "word": "applicant",
+   "pos": "n.",
+   "cn": "申请人",
+   "phonetic": "/ˈæplɪkənt/",
+   "sentence": "Each applicant must bring a passport photo.",
+   "sentence_cn": "每位申请人需带一张护照照片。",
+   "paraphrase": [
+    "candidate",
+    "job seeker"
+   ],
+   "tags": [
+    "job",
+    "section1"
+   ]
+  },
+  {
+   "id": "resume",
+   "word": "resume",
+   "pos": "n.",
+   "cn": "简历",
+   "phonetic": "/ˈrezjumeɪ/",
+   "sentence": "Send your resume and cover letter before Friday.",
+   "sentence_cn": "周五前把简历和求职信发过来。",
+   "paraphrase": [
+    "CV",
+    "curriculum vitae"
+   ],
+   "tags": [
+    "job",
+    "section1"
+   ]
+  },
+  {
+   "id": "interview",
+   "word": "interview",
+   "pos": "n.",
+   "cn": "面试；访谈",
+   "phonetic": "/ˈɪntəvjuː/",
+   "sentence": "She has a job interview at the bank tomorrow.",
+   "sentence_cn": "她明天在银行有个面试。",
+   "paraphrase": [
+    "formal discussion",
+    "face-to-face meeting"
+   ],
+   "tags": [
+    "job",
+    "section1"
+   ]
+  },
+  {
+   "id": "qualification",
+   "word": "qualification",
+   "pos": "n.",
+   "cn": "资格；资历",
+   "phonetic": "/ˌkwɒlɪfɪˈkeɪʃn/",
+   "sentence": "A teaching qualification is essential for this post.",
+   "sentence_cn": "教师资格证是这个岗位的必要条件。",
+   "paraphrase": [
+    "certificate",
+    "credential"
+   ],
+   "tags": [
+    "job",
+    "section3"
+   ]
+  },
+  {
+   "id": "colleague",
+   "word": "colleague",
+   "pos": "n.",
+   "cn": "同事",
+   "phonetic": "/ˈkɒliːɡ/",
+   "sentence": "My colleague will take over the project while I am away.",
+   "sentence_cn": "我不在时项目由同事接手。",
+   "paraphrase": [
+    "co-worker",
+    "workmate"
+   ],
+   "tags": [
+    "job",
+    "section3"
+   ]
+  },
+  {
+   "id": "salary",
+   "word": "salary",
+   "pos": "n.",
+   "cn": "薪水（年/月薪）",
+   "phonetic": "/ˈsæləri/",
+   "sentence": "The starting salary is 28,000 dollars a year.",
+   "sentence_cn": "起薪为年薪两万八千美元。",
+   "paraphrase": [
+    "pay",
+    "wage"
+   ],
+   "tags": [
+    "job",
+    "section1"
+   ]
+  },
+  {
+   "id": "probation",
+   "word": "probation",
+   "pos": "n.",
+   "cn": "试用期",
+   "phonetic": "/prəˈbeɪʃn/",
+   "sentence": "New staff are on probation for the first three months.",
+   "sentence_cn": "新员工头三个月为试用期。",
+   "paraphrase": [
+    "trial period",
+    "testing period"
+   ],
+   "tags": [
+    "job",
+    "section3"
+   ]
+  },
+  {
+   "id": "overtime",
+   "word": "overtime",
+   "pos": "n.",
+   "cn": "加班；加班费",
+   "phonetic": "/ˈəʊvətaɪm/",
+   "sentence": "Workers get double pay for overtime on Sundays.",
+   "sentence_cn": "周日加班员工拿双倍工资。",
+   "paraphrase": [
+    "extra working hours",
+    "additional shifts"
+   ],
+   "tags": [
+    "job",
+    "section3"
+   ]
+  },
+  {
+   "id": "fitness",
+   "word": "fitness",
+   "pos": "n.",
+   "cn": "健身；健康",
+   "phonetic": "/ˈfɪtnəs/",
+   "sentence": "The hotel has a fitness centre and a swimming pool.",
+   "sentence_cn": "酒店设有健身中心和游泳池。",
+   "paraphrase": [
+    "health training",
+    "physical condition"
+   ],
+   "tags": [
+    "sport",
+    "section2"
+   ]
+  },
+  {
+   "id": "athletics",
+   "word": "athletics",
+   "pos": "n.",
+   "cn": "田径运动",
+   "phonetic": "/æθˈletɪks/",
+   "sentence": "The athletics meeting was postponed due to rain.",
+   "sentence_cn": "田径运动会因雨延期。",
+   "paraphrase": [
+    "track and field",
+    "sports events"
+   ],
+   "tags": [
+    "sport",
+    "section2"
+   ]
+  },
+  {
+   "id": "referee",
+   "word": "referee",
+   "pos": "n.",
+   "cn": "裁判",
+   "phonetic": "/ˌrefəˈriː/",
+   "sentence": "The referee stopped the match in the second half.",
+   "sentence_cn": "裁判在下半场中止了比赛。",
+   "paraphrase": [
+    "official",
+    "umpire"
+   ],
+   "tags": [
+    "sport",
+    "section2"
+   ]
+  },
+  {
+   "id": "stadium",
+   "word": "stadium",
+   "pos": "n.",
+   "cn": "体育场",
+   "phonetic": "/ˈsteɪdiəm/",
+   "sentence": "The new stadium can hold 60,000 spectators.",
+   "sentence_cn": "新体育场可容纳六万名观众。",
+   "paraphrase": [
+    "sports ground",
+    "arena"
+   ],
+   "tags": [
+    "sport",
+    "section2"
+   ]
+  },
+  {
+   "id": "championship",
+   "word": "championship",
+   "pos": "n.",
+   "cn": "锦标赛；冠军称号",
+   "phonetic": "/ˈtʃæmpiənʃɪp/",
+   "sentence": "She won the national championship three years in a row.",
+   "sentence_cn": "她连续三年夺得全国冠军。",
+   "paraphrase": [
+    "title contest",
+    "tournament"
+   ],
+   "tags": [
+    "sport",
+    "section2"
+   ]
+  },
+  {
+   "id": "yoga",
+   "word": "yoga",
+   "pos": "n.",
+   "cn": "瑜伽",
+   "phonetic": "/ˈjəʊɡə/",
+   "sentence": "There is a yoga class every Tuesday evening.",
+   "sentence_cn": "每周二晚有瑜伽课。",
+   "paraphrase": [
+    "fitness class",
+    "stretching exercise"
+   ],
+   "tags": [
+    "sport",
+    "section1"
+   ]
+  },
+  {
+   "id": "festival",
+   "word": "festival",
+   "pos": "n.",
+   "cn": "节日；音乐节",
+   "phonetic": "/ˈfestɪvl/",
+   "sentence": "The town holds a music festival every summer.",
+   "sentence_cn": "小镇每年夏天举办音乐节。",
+   "paraphrase": [
+    "celebration event",
+    "fair"
+   ],
+   "tags": [
+    "event",
+    "section2"
+   ]
+  },
+  {
+   "id": "celebration",
+   "word": "celebration",
+   "pos": "n.",
+   "cn": "庆祝活动",
+   "phonetic": "/ˌselɪˈbreɪʃn/",
+   "sentence": "The celebration will begin with a street parade.",
+   "sentence_cn": "庆祝活动将以街头游行开场。",
+   "paraphrase": [
+    "festivity",
+    "party"
+   ],
+   "tags": [
+    "event",
+    "section2"
+   ]
+  },
+  {
+   "id": "fireworks",
+   "word": "fireworks",
+   "pos": "n.(pl.)",
+   "cn": "焰火",
+   "phonetic": "/ˈfaɪəwɜːks/",
+   "sentence": "The fireworks display starts at nine by the river.",
+   "sentence_cn": "焰火表演九点在河边开始。",
+   "paraphrase": [
+    "firecracker display",
+    "pyrotechnic show"
+   ],
+   "tags": [
+    "event",
+    "section2"
+   ]
+  },
+  {
+   "id": "carnival",
+   "word": "carnival",
+   "pos": "n.",
+   "cn": "嘉年华；狂欢节",
+   "phonetic": "/ˈkɑːnɪvl/",
+   "sentence": "Thousands of visitors came for the annual carnival.",
+   "sentence_cn": "数千游客前来参加年度嘉年华。",
+   "paraphrase": [
+    "fair",
+    "festive event"
+   ],
+   "tags": [
+    "event",
+    "section2"
+   ]
+  },
+  {
+   "id": "exhibition",
+   "word": "exhibition",
+   "pos": "n.",
+   "cn": "展览",
+   "phonetic": "/ˌeksɪˈbɪʃn/",
+   "sentence": "An exhibition of local artists is on at the gallery.",
+   "sentence_cn": "画廊正在举办本地艺术家展览。",
+   "paraphrase": [
+    "display",
+    "show"
+   ],
+   "tags": [
+    "event",
+    "section2"
+   ]
+  },
+  {
+   "id": "venue",
+   "word": "venue",
+   "pos": "n.",
+   "cn": "举办场所；场地",
+   "phonetic": "/ˈvenjuː/",
+   "sentence": "The venue for this year's fair has changed.",
+   "sentence_cn": "今年集市的举办地点变了。",
+   "paraphrase": [
+    "location",
+    "site"
+   ],
+   "tags": [
+    "event",
+    "section2"
+   ]
+  },
+  {
+   "id": "fare",
+   "word": "fare",
+   "pos": "n.",
+   "cn": "（车、船）票价",
+   "phonetic": "/feə/",
+   "sentence": "A single fare to the city centre costs three pounds.",
+   "sentence_cn": "到市中心单程票价三英镑。",
+   "paraphrase": [
+    "ticket price",
+    "travel cost"
+   ],
+   "tags": [
+    "transport",
+    "section1"
+   ]
+  },
+  {
+   "id": "terminal",
+   "word": "terminal",
+   "pos": "n.",
+   "cn": "航站楼；终点站",
+   "phonetic": "/ˈtɜːmɪnl/",
+   "sentence": "Take the shuttle bus to Terminal 2 for domestic flights.",
+   "sentence_cn": "乘摆渡车到二号航站楼搭国内航班。",
+   "paraphrase": [
+    "departure building",
+    "end station"
+   ],
+   "tags": [
+    "transport",
+    "section2"
+   ]
+  },
+  {
+   "id": "pedestrian",
+   "word": "pedestrian",
+   "pos": "n.",
+   "cn": "行人",
+   "phonetic": "/pəˈdestriən/",
+   "sentence": "Only pedestrians are allowed in the old town after ten.",
+   "sentence_cn": "十点后老城区只允许行人进入。",
+   "paraphrase": [
+    "walker",
+    "person on foot"
+   ],
+   "tags": [
+    "transport",
+    "section2"
+   ]
+  },
+  {
+   "id": "cyclist",
+   "word": "cyclist",
+   "pos": "n.",
+   "cn": "骑自行车者",
+   "phonetic": "/ˈsaɪklɪst/",
+   "sentence": "The path is shared by cyclists and joggers.",
+   "sentence_cn": "这条路由骑行者和慢跑者共用。",
+   "paraphrase": [
+    "bike rider",
+    "bicyclist"
+   ],
+   "tags": [
+    "transport",
+    "section2"
+   ]
+  },
+  {
+   "id": "commute",
+   "word": "commute",
+   "pos": "n.",
+   "cn": "通勤",
+   "phonetic": "/kəˈmjuːt/",
+   "sentence": "My daily commute takes about forty minutes.",
+   "sentence_cn": "我每天通勤约四十分钟。",
+   "paraphrase": [
+    "journey to work",
+    "daily travel"
+   ],
+   "tags": [
+    "transport",
+    "section3"
+   ]
+  },
+  {
+   "id": "junction",
+   "word": "junction",
+   "pos": "n.",
+   "cn": "交叉口",
+   "phonetic": "/ˈdʒʌŋkʃn/",
+   "sentence": "Accidents often happen at this busy junction.",
+   "sentence_cn": "这个繁忙路口经常发生事故。",
+   "paraphrase": [
+    "intersection",
+    "crossroads"
+   ],
+   "tags": [
+    "transport",
+    "section2"
+   ]
+  },
+  {
+   "id": "timetable",
+   "word": "timetable",
+   "pos": "n.",
+   "cn": "时刻表",
+   "phonetic": "/ˈtaɪmteɪbl/",
+   "sentence": "Check the timetable for the last train to Oxford.",
+   "sentence_cn": "查一下去牛津末班车的时刻表。",
+   "paraphrase": [
+    "schedule",
+    "time chart"
+   ],
+   "tags": [
+    "transport",
+    "section1"
+   ]
+  },
+  {
+   "id": "account",
+   "word": "account",
+   "pos": "n.",
+   "cn": "（银行）账户",
+   "phonetic": "/əˈkaʊnt/",
+   "sentence": "You need to open a bank account to receive your salary.",
+   "sentence_cn": "你需要开个银行账户来收工资。",
+   "paraphrase": [
+    "banking arrangement",
+    "customer record"
+   ],
+   "tags": [
+    "money",
+    "section1"
+   ]
+  },
+  {
+   "id": "currency",
+   "word": "currency",
+   "pos": "n.",
+   "cn": "货币",
+   "phonetic": "/ˈkʌrənsi/",
+   "sentence": "You can exchange foreign currency at the airport.",
+   "sentence_cn": "机场可以兑换外币。",
+   "paraphrase": [
+    "money",
+    "notes and coins"
+   ],
+   "tags": [
+    "money",
+    "section1"
+   ]
+  },
+  {
+   "id": "cheque",
+   "word": "cheque",
+   "pos": "n.",
+   "cn": "支票",
+   "phonetic": "/tʃek/",
+   "sentence": "Payment by cheque is no longer accepted.",
+   "sentence_cn": "不再接受支票付款。",
+   "paraphrase": [
+    "written payment",
+    "payment slip"
+   ],
+   "tags": [
+    "money",
+    "section1"
+   ]
+  },
+  {
+   "id": "postage",
+   "word": "postage",
+   "pos": "n.",
+   "cn": "邮费",
+   "phonetic": "/ˈpəʊstɪdʒ/",
+   "sentence": "Postage to Europe starts at five pounds.",
+   "sentence_cn": "寄往欧洲的邮费五英镑起。",
+   "paraphrase": [
+    "mail cost",
+    "shipping fee"
+   ],
+   "tags": [
+    "post",
+    "section1"
+   ]
+  },
+  {
+   "id": "parcel",
+   "word": "parcel",
+   "pos": "n.",
+   "cn": "包裹",
+   "phonetic": "/ˈpɑːsl/",
+   "sentence": "I would like to send this parcel by airmail.",
+   "sentence_cn": "我想航空邮寄这个包裹。",
+   "paraphrase": [
+    "package",
+    "packet"
+   ],
+   "tags": [
+    "post",
+    "section1"
+   ]
+  },
+  {
+   "id": "transfer",
+   "word": "transfer",
+   "pos": "n.",
+   "cn": "转账；换乘",
+   "phonetic": "/ˈtrænsfɜː/",
+   "sentence": "A bank transfer usually takes two working days.",
+   "sentence_cn": "银行转账通常需要两个工作日。",
+   "paraphrase": [
+    "transaction",
+    "remittance"
+   ],
+   "tags": [
+    "money",
+    "section1"
+   ]
+  },
+  {
+   "id": "vegetarian",
+   "word": "vegetarian",
+   "pos": "n./adj.",
+   "cn": "素食者；素食的",
+   "phonetic": "/ˌvedʒəˈteəriən/",
+   "sentence": "The restaurant offers a wide range of vegetarian dishes.",
+   "sentence_cn": "餐厅提供丰富的素食菜品。",
+   "paraphrase": [
+    "plant-based eater",
+    "non-meat eater"
+   ],
+   "tags": [
+    "food",
+    "section1"
+   ]
+  },
+  {
+   "id": "cuisine",
+   "word": "cuisine",
+   "pos": "n.",
+   "cn": "菜肴；烹饪风格",
+   "phonetic": "/kwɪˈziːn/",
+   "sentence": "The city is famous for its spicy local cuisine.",
+   "sentence_cn": "这座城市以辛辣的本地菜肴闻名。",
+   "paraphrase": [
+    "cooking style",
+    "food tradition"
+   ],
+   "tags": [
+    "food",
+    "section2"
+   ]
+  },
+  {
+   "id": "takeaway",
+   "word": "takeaway",
+   "pos": "n.",
+   "cn": "外卖；外带食物",
+   "phonetic": "/ˈteɪkəweɪ/",
+   "sentence": "Let us order a takeaway instead of cooking.",
+   "sentence_cn": "我们点外卖吧，不做饭了。",
+   "paraphrase": [
+    "takeout food",
+    "ready-cooked meal"
+   ],
+   "tags": [
+    "food",
+    "section1"
+   ]
+  },
+  {
+   "id": "beverage",
+   "word": "beverage",
+   "pos": "n.",
+   "cn": "饮料",
+   "phonetic": "/ˈbevərɪdʒ/",
+   "sentence": "Hot beverages are served in the buffet car.",
+   "sentence_cn": "餐车供应热饮。",
+   "paraphrase": [
+    "drink",
+    "liquid refreshment"
+   ],
+   "tags": [
+    "food",
+    "section1"
+   ]
+  },
+  {
+   "id": "snack",
+   "word": "snack",
+   "pos": "n.",
+   "cn": "零食；小吃",
+   "phonetic": "/snæk/",
+   "sentence": "There is a snack machine on the second floor.",
+   "sentence_cn": "二楼有零食自动售货机。",
+   "paraphrase": [
+    "light food",
+    "bite to eat"
+   ],
+   "tags": [
+    "food",
+    "section1"
+   ]
+  },
+  {
+   "id": "bargain",
+   "word": "bargain",
+   "pos": "n.",
+   "cn": "便宜货；划算交易",
+   "phonetic": "/ˈbɑːɡən/",
+   "sentence": "These boots were a real bargain in the sale.",
+   "sentence_cn": "这靴子打折时买真划算。",
+   "paraphrase": [
+    "good deal",
+    "cheap buy"
+   ],
+   "tags": [
+    "shopping",
+    "section1"
+   ]
+  },
+  {
+   "id": "warranty",
+   "word": "warranty",
+   "pos": "n.",
+   "cn": "保修；质保",
+   "phonetic": "/ˈwɒrənti/",
+   "sentence": "The laptop comes with a two-year warranty.",
+   "sentence_cn": "笔记本电脑保修两年。",
+   "paraphrase": [
+    "guarantee",
+    "after-sales cover"
+   ],
+   "tags": [
+    "shopping",
+    "section1"
+   ]
+  },
+  {
+   "id": "purchase",
+   "word": "purchase",
+   "pos": "n.",
+   "cn": "购买；购买之物",
+   "phonetic": "/ˈpɜːtʃəs/",
+   "sentence": "Keep the receipt as proof of purchase.",
+   "sentence_cn": "保留收据作为购买凭证。",
+   "paraphrase": [
+    "acquisition",
+    "buying"
+   ],
+   "tags": [
+    "shopping",
+    "section3"
+   ]
+  },
+  {
+   "id": "exchange",
+   "word": "exchange",
+   "pos": "n.",
+   "cn": "退换；交换",
+   "phonetic": "/ɪksˈtʃeɪndʒ/",
+   "sentence": "Goods can be returned for exchange within 14 days.",
+   "sentence_cn": "十四天内商品可退换。",
+   "paraphrase": [
+    "replacement",
+    "swap"
+   ],
+   "tags": [
+    "shopping",
+    "section1"
+   ]
+  },
+  {
+   "id": "souvenir",
+   "word": "souvenir",
+   "pos": "n.",
+   "cn": "纪念品",
+   "phonetic": "/ˌsuːvəˈnɪə/",
+   "sentence": "She bought a model bridge as a souvenir.",
+   "sentence_cn": "她买了座桥的模型作纪念品。",
+   "paraphrase": [
+    "keepsake",
+    "memento"
+   ],
+   "tags": [
+    "shopping",
+    "section2"
+   ]
+  },
+  {
+   "id": "belongings",
+   "word": "belongings",
+   "pos": "n.(pl.)",
+   "cn": "随身物品",
+   "phonetic": "/bɪˈlɒŋɪŋz/",
+   "sentence": "Please collect your belongings before leaving the train.",
+   "sentence_cn": "下车前请拿好随身物品。",
+   "paraphrase": [
+    "personal items",
+    "possessions"
+   ],
+   "tags": [
+    "object",
+    "section1"
+   ]
+  },
+  {
+   "id": "wallet",
+   "word": "wallet",
+   "pos": "n.",
+   "cn": "钱包",
+   "phonetic": "/ˈwɒlɪt/",
+   "sentence": "He reported the loss of his wallet to the police.",
+   "sentence_cn": "他向警方报失了钱包。",
+   "paraphrase": [
+    "money holder",
+    "purse"
+   ],
+   "tags": [
+    "object",
+    "section1"
+   ]
+  },
+  {
+   "id": "umbrella",
+   "word": "umbrella",
+   "pos": "n.",
+   "cn": "雨伞",
+   "phonetic": "/ʌmˈbrelə/",
+   "sentence": "You'd better take an umbrella—it is going to rain.",
+   "sentence_cn": "最好带把伞，要下雨了。",
+   "paraphrase": [
+    "brolly",
+    "parasol"
+   ],
+   "tags": [
+    "object",
+    "section1"
+   ]
+  },
+  {
+   "id": "torch",
+   "word": "torch",
+   "pos": "n.",
+   "cn": "手电筒；火炬",
+   "phonetic": "/tɔːtʃ/",
+   "sentence": "Bring a torch for the evening walk in the bush.",
+   "sentence_cn": "晚间丛林散步请带手电筒。",
+   "paraphrase": [
+    "flashlight",
+    "electric light"
+   ],
+   "tags": [
+    "object",
+    "section1"
+   ]
+  },
+  {
+   "id": "brochure",
+   "word": "brochure",
+   "pos": "n.",
+   "cn": "（宣传）手册",
+   "phonetic": "/ˈbrəʊʃə/",
+   "sentence": "Pick up a free brochure at the visitor centre.",
+   "sentence_cn": "在游客中心免费领取一本手册。",
+   "paraphrase": [
+    "leaflet",
+    "pamphlet"
+   ],
+   "tags": [
+    "travel",
+    "section1"
+   ]
+  },
+  {
+   "id": "reference",
+   "word": "reference",
+   "pos": "n.",
+   "cn": "参考；编号",
+   "phonetic": "/ˈrefrəns/",
+   "sentence": "Please quote this reference number when you call.",
+   "sentence_cn": "来电时请报这个参考编号。",
+   "paraphrase": [
+    "file number",
+    "case number"
+   ],
+   "tags": [
+    "booking",
+    "section1"
+   ]
+  },
+  {
+   "id": "enquiry",
+   "word": "enquiry",
+   "pos": "n.",
+   "cn": "咨询；询问",
+   "phonetic": "/ˈɪnkwəri/",
+   "sentence": "For further enquiries, call the 24-hour helpline.",
+   "sentence_cn": "更多咨询请拨打24小时服务热线。",
+   "paraphrase": [
+    "question",
+    "request for information"
+   ],
+   "tags": [
+    "booking",
+    "section1"
+   ]
+  }
+ ]
+}

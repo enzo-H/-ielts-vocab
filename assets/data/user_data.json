@@ -1,0 +1,283 @@
+{
+ "version": 1,
+ "created": "2026-08-31",
+ "words": {
+  "accommodation": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "deposit": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "invoice": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "refund": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "voucher": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "itinerary": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "excursion": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "ferry": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "shuttle": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "platform": {
+   "repetitions": 1,
+   "easiness": 2.6,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 5,
+   "last_review": "2026-08-31"
+  },
+  "luggage": {
+   "repetitions": 1,
+   "easiness": 2.6,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 5,
+   "last_review": "2026-08-31"
+  },
+  "visa": {
+   "repetitions": 1,
+   "easiness": 2.6,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 5,
+   "last_review": "2026-08-31"
+  },
+  "enrolment": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "orientation": {
+   "repetitions": 1,
+   "easiness": 1.3,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 3,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "seminar": {
+   "repetitions": 1,
+   "easiness": 1.7,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 1,
+   "last_grade": 4,
+   "last_review": "2026-08-31"
+  },
+  "dissertation": {
+   "repetitions": 1,
+   "easiness": 1.3,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 2,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "plagiarism": {
+   "repetitions": 1,
+   "easiness": 1.3,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 3,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "bibliography": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "periodical": {
+   "repetitions": 1,
+   "easiness": 1.56,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 1,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "catalogue": {
+   "repetitions": 1,
+   "easiness": 2.5,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 4,
+   "last_review": "2026-08-31"
+  },
+  "reservation": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "membership": {
+   "repetitions": 1,
+   "easiness": 2.5,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 4,
+   "last_review": "2026-08-31"
+  },
+  "subscription": {
+   "repetitions": 1,
+   "easiness": 2.6,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 5,
+   "last_review": "2026-08-31"
+  },
+  "instalment": {
+   "repetitions": 1,
+   "easiness": 1.3,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 3,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "pension": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "mortgage": {
+   "repetitions": 1,
+   "easiness": 1.3,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 2,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "budget": {
+   "repetitions": 1,
+   "easiness": 2.5,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 4,
+   "last_review": "2026-08-31"
+  },
+  "receipt": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "tuition": {
+   "repetitions": 1,
+   "easiness": 2.36,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 3,
+   "last_review": "2026-08-31"
+  },
+  "scholarship": {
+   "repetitions": 1,
+   "easiness": 2.5,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 4,
+   "last_review": "2026-08-31"
+  }
+ },
+ "history": {
+  "2026-08-31": {
+   "reviews": 45,
+   "correct": 30,
+   "new": 30
+  }
+ }
+}
