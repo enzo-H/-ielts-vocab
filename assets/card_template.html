@@ -5,7 +5,6 @@
 <meta name="color-scheme" content="light dark">
 <title>IELTS vocab session</title>
 <style>
-  /* 固定深色主题：自带背景，不依赖 prefers-color-scheme（预览面板会误报浅色） */
   :root{
     --bg:#1e1e1e; --fg:#f0f0f0; --sub:#d0d0d0; --aux:#a8a8a8;
     --border:#666; --card-border:#555;
@@ -48,41 +47,36 @@
 </style>
 </head>
 <body>
-<!-- ============================================================
-  ielts-vocab 交互学习页模板（Agent 复制本文件并替换占位符）
-  替换项：
-    {{WORDS_JSON}} 词对象数组 JSON，字段与 wordlist_*.json 一致
-  交互流程：
-    1. 逐词展示卡片（词 + 音标 + 释义 + 例句 + 同义替换）
-    2. 每词 4 个自评按钮：Again(忘了) / Hard(困难) / Good(一般) / Easy(轻松)
-    3. 结束后生成 grade 字符串，如 "habitat=good,deposit=again"
-    4. 点"保存学习记录"→ fetch POST http://127.0.0.1:{8765-8767}/record 自动入库
-       （本地桥接服务：session.py serve；不可用时回退剪贴板方式）
-  样式规范（用户定稿 2026-08-31）：
-    透明按钮 + prefers-color-scheme 自适应明暗 + 紧凑字号（单词 17px，正文 13px）
-============================================================ -->
 <div id="app"></div>
 <script>
 const WORDS = {{WORDS_JSON}};
-let i = 0, results = [];
+let i = 0, results = [], relearn = [], round = 1;
 
 function speak(t){ try{ const u = new SpeechSynthesisUtterance(t); u.lang='en-GB'; speechSynthesis.speak(u);}catch(e){} }
 
 function render(){
-  if(i >= WORDS.length) return finish();
+  if(i >= WORDS.length){
+    if(relearn.length){ return startRelearn(); }
+    return finish();
+  }
   const w = WORDS[i];
   document.getElementById('app').innerHTML = `
     <div class="wrap">
       <div class="meta"><span>${i+1} / ${WORDS.length}</span><span>${w.list||''}</span></div>
       <div class="card">
-        <div class="word" onclick="speak('${w.word.replace(/'/g,"\\'")}')">${w.word} 🔊</div>
+        <div class="word" onclick="speak('${w.word.replace(/'/g,"\\'")}')">${w.word}</div>
         <div class="phon">${w.phonetic||''} ${w.pos||''}</div>
-        <div class="cn">${w.cn||''}</div>
-        <div class="sen">${w.sentence||''}</div>
-        <div class="sen-cn">${w.sentence_cn||''}</div>
-        <div class="para">同义替换：${(w.paraphrase||[]).join(' / ')}</div>
+        <div id="detail" style="display:none">
+          <div class="cn">${w.cn||''}</div>
+          <div class="sen">${w.sentence||''}</div>
+          <div class="sen-cn">${w.sentence_cn||''}</div>
+          <div class="para">同义替换：${(w.paraphrase||[]).join(' / ')}</div>
+        </div>
       </div>
-      <div class="btn-row">
+      <div id="reveal-row" class="btn-row">
+        <button onclick="reveal()">点击单词朗读 · 显示释义</button>
+      </div>
+      <div id="grade-row" class="btn-row" style="display:none">
         <button onclick="grade('again')">Again 忘了</button>
         <button onclick="grade('hard')">Hard 困难</button>
         <button onclick="grade('good')">Good 记得</button>
@@ -91,7 +85,49 @@ function render(){
     </div>`;
 }
 
-function grade(g){ results.push(WORDS[i].id + '=' + g); i++; render(); }
+function reveal(){
+  document.getElementById('detail').style.display = 'block';
+  document.getElementById('reveal-row').style.display = 'none';
+  document.getElementById('grade-row').style.display = 'flex';
+}
+
+function grade(g){
+  const w = WORDS[i];
+  results.push(w.id + '=' + g);
+  if(g === 'again'){
+    relearn.push(w.id);          // requeue inside this session
+  }else if(round > 1){
+    // passed in a relearn round: drop from queue
+    relearn = relearn.filter(x => x !== w.id);
+  }
+  i++; render();
+}
+
+function startRelearn(){
+  const next = relearn.map(id => {
+    const w = Object.assign({}, ORIGINAL.find(x => x.id === id));
+    w.list = (w.list || '') + ' · 再学 ' + (round + 1);
+    return w;
+  });
+  relearn = [];
+  WORDS.length = 0;
+  next.forEach(w => WORDS.push(w));
+  round++;
+  i = 0;
+  document.getElementById('app').innerHTML = `
+    <div class="wrap">
+      <div class="card done">
+        <div class="done-title">第 ${round-1} 轮完成</div>
+        <div style="font-size:12px;color:var(--sub);margin:4px 0">${WORDS.length} 个词还没记住，马上重学一轮</div>
+        <div class="btn-row" style="justify-content:center;margin-top:8px">
+          <button onclick="render()">开始第 ${round} 轮</button>
+          <button class="btn-wide" onclick="finish()">先到这里，保存成绩</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+const ORIGINAL = WORDS.slice();
 
 function finish(){
   const payload = results.join(',');
@@ -99,7 +135,7 @@ function finish(){
     <div class="wrap">
       <div class="card done">
         <div class="done-title">本轮完成</div>
-        <div style="font-size:12px;color:var(--sub);margin:4px 0">${results.length} 个词已自评</div>
+        <div style="font-size:12px;color:var(--sub);margin:4px 0">${results.length} 次自评 · 共 ${round} 轮</div>
         <textarea id="payload" readonly>${payload}</textarea>
         <div class="btn-row" style="justify-content:center;margin-top:8px">
           <button id="saveBtn" class="btn-wide" onclick="saveResult()">保存学习记录</button>
@@ -115,11 +151,21 @@ function saveResult(){
   const msg = document.getElementById('hint');
   msg.style.display = 'block';
   msg.textContent = '正在保存…';
-  postBridge(p).then(ok => {
-    if(ok){
-      msg.textContent = '已保存到学习记录（自动入库，无需其他操作）';
-      const btn = document.getElementById('saveBtn');
-      if(btn){ btn.textContent = '已保存'; btn.disabled = true; }
+  postBridge(p).then(res => {
+    if(res){
+      const left = (res.remaining && (res.remaining.due_reviews.length + res.remaining.new_words.length)) || 0;
+      if(left > 0){
+        msg.textContent = '已保存。今天还有 ' + left + ' 个词待过（含再学词），点下方继续';
+        const btn = document.getElementById('saveBtn');
+        btn.textContent = '继续学习剩余 ' + left + ' 词';
+        btn.disabled = false;
+        btn.onclick = function(){ location.reload(); };
+        window.__remaining = res.remaining;
+      }else{
+        msg.textContent = '已保存，今日���务全部完成 ✓ 明天见';
+        const btn = document.getElementById('saveBtn');
+        if(btn){ btn.textContent = '已保存'; btn.disabled = true; }
+      }
     }else{
       copyPayload();
       msg.textContent = '此环境禁止自动保存：结果串已复制，请粘贴到对话框发送';
@@ -137,7 +183,7 @@ function postBridge(payload){
       headers: {'Content-Type': 'text/plain'},
       body: JSON.stringify({results: payload})
     }).then(r => r.json())
-      .then(j => !!(j && (j.ok || (j.recorded && j.recorded.length))))
+      .then(j => (j && (j.ok || (j.recorded && j.recorded.length))) ? j : false)
       .catch(() => tryPort(i + 1));
   }
 }

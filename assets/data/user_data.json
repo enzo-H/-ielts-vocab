@@ -271,13 +271,22 @@
    "lapses": 0,
    "last_grade": 4,
    "last_review": "2026-08-31"
+  },
+  "landlord": {
+   "repetitions": 1,
+   "easiness": 2.6,
+   "interval": 1,
+   "due": "2026-09-01",
+   "lapses": 0,
+   "last_grade": 5,
+   "last_review": "2026-08-31"
   }
  },
  "history": {
   "2026-08-31": {
-   "reviews": 45,
-   "correct": 30,
-   "new": 30
+   "reviews": 46,
+   "correct": 31,
+   "new": 31
   }
  }
 }

@@ -24,6 +24,9 @@ Subcommands:
     serve [--port N]
         Run a local HTTP bridge (127.0.0.1) so card pages can POST /record
         and save grades directly -- no sendPrompt / clipboard needed.
+        Endpoints: GET /ping, GET|POST /plan (today's remaining plan),
+        POST /record (applies grades; response embeds updated "remaining"
+        plan so card pages can offer a relearn round in-session).
     ping
         Probe whether the bridge is running; prints its base URL.
 
@@ -126,7 +129,9 @@ def load_words() -> dict:
 
 # ---------- plan ----------
 
-def cmd_plan(args) -> int:
+def build_plan(new_limit: int | None = None, due_limit: int | None = None,
+               list_filter: str | None = None) -> dict:
+    """Compute today's plan dict. Pure read; reusable by CLI and HTTP bridge."""
     user = load_user()
     words = load_words()
     settings = load_settings()
@@ -139,11 +144,11 @@ def cmd_plan(args) -> int:
     ]
     due_ids.sort(key=lambda w: (states[w].get("due", ""), w))
 
-    if args.list:
-        due_ids = [wid for wid in due_ids if words[wid]["list"] == args.list]
+    if list_filter:
+        due_ids = [wid for wid in due_ids if words[wid]["list"] == list_filter]
 
-    new_limit = args.new if args.new is not None else settings["new_per_day"]
-    due_limit = args.due if args.due is not None else settings["max_due_per_day"]
+    new_limit = settings["new_per_day"] if new_limit is None else new_limit
+    due_limit = settings["max_due_per_day"] if due_limit is None else due_limit
     backlog = len(due_ids)
 
     # overload protection: due backlog above threshold -> shrink new words
@@ -163,8 +168,8 @@ def cmd_plan(args) -> int:
     introduced_today = user.get("history", {}).get(today_iso, {}).get("new", 0)
     remaining_new = new_limit - introduced_today
     new_pool = [wid for wid in words if wid not in states]
-    if args.list:
-        new_pool = [wid for wid in new_pool if words[wid]["list"] == args.list]
+    if list_filter:
+        new_pool = [wid for wid in new_pool if words[wid]["list"] == list_filter]
     new_ids = new_pool[: max(0, remaining_new)]
 
     out = {
@@ -175,8 +180,15 @@ def cmd_plan(args) -> int:
     }
     if adjusted:
         out["adjusted"] = adjusted
+    return out
+
+
+def cmd_plan(args) -> int:
+    out = build_plan(
+        new_limit=args.new, due_limit=args.due, list_filter=args.list,
+    )
     if args.csv:
-        print(",".join(due_ids[:due_limit] + new_ids))
+        print(",".join(out["due_reviews"] + out["new_words"]))
     else:
         print(json.dumps(out, ensure_ascii=False, indent=1))
     return 0 if (out["due_reviews"] or out["new_words"]) else 1
@@ -298,6 +310,8 @@ def cmd_serve(args) -> int:
             q = parse_qs(u.query)
             if u.path == "/ping":
                 self._send(200, {"ok": True, "date": _dt.date.today().isoformat()})
+            elif u.path == "/plan":
+                self._send(200, {"ok": True, **build_plan()})
             elif u.path == "/beacon":
                 tag = (q.get("tag") or [""])[0]
                 _log_beacon("GET " + tag)
@@ -328,24 +342,41 @@ def cmd_serve(args) -> int:
                 self._send(404, {"ok": False, "error": "not found"})
 
         def do_POST(self):
-            if self.path != "/record":
-                self._send(404, {"ok": False, "error": "not found"})
-                return
-            try:
-                n = int(self.headers.get("Content-Length", "0") or 0)
-                raw = self.rfile.read(n).decode("utf-8") or "{}"
+            if self.path == "/record":
                 try:
-                    data = json.loads(raw)
-                except ValueError:
-                    data = {"results": raw.strip()}
-                results = (data.get("results") or "").strip()
-                if not results:
-                    self._send(400, {"ok": False, "error": "empty results"})
-                    return
-                out = apply_results(results)
-                self._send(200 if out["ok"] else 422, out)
-            except Exception as e:  # noqa: BLE001
-                self._send(500, {"ok": False, "error": str(e)})
+                    n = int(self.headers.get("Content-Length", "0") or 0)
+                    raw = self.rfile.read(n).decode("utf-8") or "{}"
+                    try:
+                        data = json.loads(raw)
+                    except ValueError:
+                        data = {"results": raw.strip()}
+                    results = (data.get("results") or "").strip()
+                    if not results:
+                        self._send(400, {"ok": False, "error": "empty results"})
+                        return
+                    out = apply_results(results)
+                    plan = build_plan()
+                    self._send(200 if out["ok"] else 422, {
+                        **out,
+                        "remaining": {
+                            "due_reviews": plan["due_reviews"],
+                            "new_words": plan["new_words"],
+                            "backlog": plan["backlog"],
+                        },
+                    })
+                except Exception as e:  # noqa: BLE001
+                    self._send(500, {"ok": False, "error": str(e)})
+            elif self.path == "/plan":
+                try:
+                    n = int(self.headers.get("Content-Length", "0") or 0)
+                    if n:
+                        self.rfile.read(n)
+                    plan = build_plan()
+                    self._send(200, {"ok": True, **plan})
+                except Exception as e:  # noqa: BLE001
+                    self._send(500, {"ok": False, "error": str(e)})
+            else:
+                self._send(404, {"ok": False, "error": "not found"})
 
         def do_OPTIONS(self):
             self.send_response(204)
