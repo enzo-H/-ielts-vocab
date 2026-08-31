@@ -147,3 +147,14 @@ ielts-vocab/
 - 用户问"学到哪了/多少词了"→ `stats`；问"明天复习什么"→ `plan`
 - 主动提示：当 stats 显示 leech 词（≥8 次答错）时，建议用户用"联想记忆/词根词缀"专项突破
 - 生成卡片页时文件名带日期（vocab_YYYYMMDD.html），避免覆盖历史
+
+## 跨设备同步（Git 私有仓库，2026-08-31 启用）
+
+- 远端：`git@github.com:enzo-H/-ielts-vocab.git`（main 分支，skill 目录即仓库工作目录）
+- 用户说"**同步进度**"时执行：
+  - 学完 push：`git add . && git commit -m "进度 YYYY-MM-DD" && git push`
+  - 换机开始前 pull：`git pull --rebase`
+- 约定：同一时段只用一台电脑学；beacon_log/bridge_port 已在 .gitignore 排除
+- 新机器接入：`cd ~/.workbuddy/skills/ && git clone git@github.com:enzo-H/-ielts-vocab.git ielts-vocab`
+  （需先配好该机的 SSH 公钥；Python 用该机 WorkBuddy 托管版本）
+- push 被拒 → 先 `git pull --rebase`；冲突 → 保留数据更全的 user_data.json
